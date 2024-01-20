@@ -7,20 +7,18 @@
     outline: 0;
 }
 html, body {
-    min-height: 100dvh;
+    min-height: 100%;
     font-family: 'Lato', sans-serif;
 }
 body {
     background: #f2f5f9;
     font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Poppins', sans-serif;
 }
 .card {
+    margin: 7.75rem auto 0 auto;
     background: #fff;
     max-width: 26.125rem;
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
